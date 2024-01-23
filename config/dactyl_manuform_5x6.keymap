@@ -8,7 +8,7 @@
 
 / {
     macros {
-            Git_Push: Git_Push {
+        Git_Push: Git_Push {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&Git_Push>;
@@ -31,7 +31,7 @@
             bindings = <&kp F2>, <&kp F5>;
         };
 
-            Bracket: Bracket {
+        Bracket: Bracket {
             compatible = "zmk,behavior-tap-dance";
             label = "BRACKET";
             #binding-cells = <0>;
@@ -88,14 +88,14 @@
 
         default_layer {
             bindings = <
-&ESC_LNG   &kp N1  &kp N2  &kp N3  &kp N4     &kp N5                                    &kp N6     &kp N7         &kp N8     &kp N9     &kp N0     &kp DEL
-&kp TAB    &kp Q   &kp W   &kp E   &kp R      &kp T                                     &kp Y      &kp U          &kp I      &kp O      &kp P      &kp MINUS
-&kp LSHFT  &kp A   &kp S   &kp D   &kp F      &kp G                                     &kp H      &kp J          &kp K      &kp L      &kp SEMI   &kp SQT
-&kp LCTRL  &kp Z   &kp X   &kp C   &kp V      &kp B                                     &kp N      &kp M          &kp COMMA  &kp DOT    &kp SLASH  &BSLH_GRV
-                   &DMP    &UPN                                                                                   &Bracket   &kp EQUAL
-                                   &kp SPACE  &kp LEFT_SHIFT                            &kp RET    &kp BACKSPACE
-                                              &kp LEFT_ALT    &trans  &kp UP_ARROW  &kp DOWN
-                                              &Win_Push       &F2_F5      &kp LEFT      &kp RIGHT
+&ESC_LNG   &kp N1  &kp N2  &kp N3  &kp N4     &kp N5                                             &kp N6     &kp N7         &kp N8     &kp N9     &kp N0     &kp DEL
+&kp TAB    &kp Q   &kp W   &kp E   &kp R      &kp T                                              &kp Y      &kp U          &kp I      &kp O      &kp P      &kp MINUS
+&kp LSHFT  &kp A   &kp S   &kp D   &kp F      &kp G                                              &kp H      &kp J          &kp K      &kp L      &kp SEMI   &kp SQT
+&kp LCTRL  &kp Z   &kp X   &kp C   &kp V      &kp B                                              &kp N      &kp M          &kp COMMA  &kp DOT    &kp SLASH  &BSLH_GRV
+                   &DMP    &UPN                                                                                            &Bracket   &kp EQUAL
+                                   &kp SPACE  &kp LEFT_SHIFT                                     &kp RET    &kp BACKSPACE
+                                              &kp LEFT_ALT    &kp C_AL_CALCULATOR  &kp UP_ARROW  &kp DOWN
+                                              &Win_Push       &F2_F5               &kp LEFT      &kp RIGHT
             >;
         };
 
