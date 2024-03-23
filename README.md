@@ -11,7 +11,7 @@ How to do this the simplest way is this:
 **Compiling and flashing**
 
 * Fork this repo by clicking on the Fork button (basically with this you copy this code to your account) it has all the necessary code for you to start.
-* Then you go to this website [Keymap Editor](https://nickcoutsos.github.io/keymap-editor) (which is from this guy `https://github.com/nickcoutsos/keymap-editor` all props to him for this amazing tool).
+* Then you go to this website [Keymap Editor](https://nickcoutsos.github.io/keymap-editor){:target="_blank"} (which is from this guy `https://github.com/nickcoutsos/keymap-editor` all props to him for this amazing tool).
 * In here you connect your GitHub account and find your repo you can ask me any question that you might have by submitting an Issue.
 * When that is done click on save (in the site) this will also save all your changes in your GitHub account.
 
@@ -30,4 +30,4 @@ How to do this the simplest way is this:
 * Your Bluetooth needs to be 4.2 at a minimum otherwise it will not work with Bluetooth.
 
 NOTE:
-***I would highly advise you to give [ZMK](ZMK.dev) a read it literally has everything you would need to know.***
+***I would highly advise you to give [ZMK](ZMK.dev){:target="_blank"} a read it literally has everything you would need to know.***
